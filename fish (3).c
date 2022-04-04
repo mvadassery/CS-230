@@ -6,8 +6,10 @@
 // Class: 230
 // Project: Hey, That's My Fish!
 
-// In this game, the player can compete against the AI in a game of 'Hey, That's My Fish!'. The player and AI move across the game board, trying to collect as many points as possible, before becoming unable to move.
-
+// A game coded in C, in which the player competes against the AI in a game called 'Hey, That's My Fish!'. 
+// The player and the AI move across the game board, trying to collect as many points as possible. 
+// Both the player and the AI can move in 6 directions and as many spaces as they would like. The game continues until neither the AI nor the player can move.
+// The game does not make use of arrays, and instead, strictly uses pointers to create the game board and move the player's pointer and AI's pointer to various positions.
 
 // struct Grid contains the pointers required to connect the project together. The pointers for the directions indicate which grid connects to which and how to access it.
 struct Grid {
