@@ -6,4 +6,4 @@ Secure Shell, a terminal emulator and stand-alone ssh client for Chrome.
 
 fish(3).c contains the Hey, That's My Fish! Project
 
-client.c contains the String Bot Project
+string_bot.c contains the String Bot Project
